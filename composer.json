@@ -1,0 +1,21 @@
+{
+    "name": "jundayw/bip32-sdk-php",
+    "description": "a php sdk of package for bip32",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-gmp": "*",
+        "lastguest/murmurhash": "v2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jundayw\\Bip32\\": "src/"
+        }
+    }
+}
